@@ -250,7 +250,7 @@ public class MainClass {
 				else
 					System.out.println("your password is wrong re-enter it again.");
 			}while(falsePassword);
-			if(!determinOwnerOrPlayer(email, password))
+			if(determinOwnerOrPlayer(email, password))
 			{
 				System.out.println("This email is already signed up");
 				logOut();
